@@ -21,7 +21,7 @@ export const Navbar: React.FC<NavbarProps> = ({ view, onChangeView }) => {
 
   return (
     <header className="hud-header">
-      <h1>🍞 Artisan Bakery Studio</h1>
+      <h1>🍞 Bread Game</h1>
       <nav className="view-tabs">
         <button className={view === 'game' ? 'active' : ''} onClick={() => onChangeView('game')}>
           Bakery
