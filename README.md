@@ -2,6 +2,8 @@
 
 This project is just my attempt to use Claude in a project.
 
+Live: https://bread-game.netlify.app/
+
 It's a small web-based bread-baking simulation game, built with React, TypeScript, Zustand, and Framer Motion. You mix, knead, proof, score, and bake a loaf, then sell it to customers who stop by the bakery.
 
 ## Stack
