@@ -352,6 +352,10 @@ export const useGameStore = create<GameStore>()(
         yeastGrams: state.yeastGrams,
         saltGrams: state.saltGrams,
         waterLiters: state.waterLiters,
+        // Persist the in-progress batch and waiting customers too, so closing the tab
+        // mid-bake doesn't lose your place.
+        currentBatch: state.currentBatch,
+        activeCustomers: state.activeCustomers,
       }),
     }
   )
